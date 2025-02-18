@@ -1,0 +1,16 @@
+{
+    "name": "vzambon/laravel-rabbit-mq",
+    "autoload": {
+        "psr-4": {
+            "Vzambon\\LaravelRabbitMq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vítor Santoro Zambon",
+            "email": "vszambon@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev"
+}
