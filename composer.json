@@ -11,6 +11,17 @@
             "email": "vszambon@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "7.4.*",
+        "php-amqplib/php-amqplib": "^2.8",
+        "illuminate/queue": "8.83.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vzambon\\LaravelRabbitMq\\RabbitMqServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
